@@ -1,0 +1,69 @@
+h1 {
+    margin: auto;
+    padding: 1em;
+    text-align: center;
+    font-family: sans-serif;
+    direction: ltr;
+}
+
+form {
+    margin: auto;
+    width: 40%;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    font-family: sans-serif;
+}
+
+label {
+    margin: auto;
+    display: block;
+    font-weight: bold;
+    font-size: 1.5em;
+    direction: ltr;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+.w3c-validation-area {
+    margin: 2em auto;
+    width: 88px;
+    height: 31px;
+}
+
+input {
+    font: 1.5em sans-serif;
+    border: 2px solid;
+    border-radius: 7px;
+}
+
+input[type="text"] {
+    margin: 2%;
+    width: 95%;
+    height: 2em;
+    border-color:  #dadada;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+input[type="submit"] {
+    margin: 2%;
+    width: 45%;
+    color: white;
+    background-color: #3a6bbb;
+    border-color:  #3466b9;
+}
+
+input[type="submit"]:hover {
+    background-color: #5382d0;
+}
+
+input[type="submit"]:active {
+    background-color: #305faf;
+}
