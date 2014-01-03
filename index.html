@@ -1,29 +1,48 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Homepage von David Bourguignon</title>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
-    <link href="./css/bootstrap.min.css" rel="stylesheet" media="screen">
-  </head>
-  <body>
-    <header>
-      <h1 style="text-align:center;margin-bottom:5%;font-family:'Comic Sans MS',cursive,sans-serif">
-        Wilkommen in dem Homepage von David Bourguignon!
-      </h1>
-    </header>
-    
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="//code.jquery.com/jquery.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="./js/bootstrap.min.js"></script>
-    
-    <article>
-      <p style="text-align:center;">
-        <img src="http://www.fubiz.net/wp-content/uploads/2013/08/as4.jpg"
-             alt="Astrophotography of Michael Shaimblum">
-      </p>
-    </article>
-  </body>
+<html lang="de">
+	<head>
+		<title>Homepage von David Bourguignon</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">
+				<ul class="nav nav-pills pull-right">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="impressum-index.html" title="Impressum" target="_blank">Impressum</a></li>
+				</ul>
+				<h3 class="text-muted">Web-Engineering I: Grundlagen der Web-Entwicklung</h3>
+			</div>
+            <hr>
+			<div class="jumbotron">
+				<h1>Wilkommen!</h1>
+				<p class="lead">Homepage von David Bourguignon</p>
+			</div>
+			<div class="row marketing">
+				<div class="col-lg-6">
+					<h4>Hausaufgabe: Mit CSS formatierte Tabelle aller "XHTML 1.0 strict"-Elemente</h4>
+					<p><em>In dieser Hausaufgabe sollen Sie auf Ihrer Website bei cloudControl eine XHTML-1.0-strict-Seite erstellen (ohne Bootstrap!). Die Seite soll eine "schön" formatierte Tabelle aller 77 Elemente zeigen.</em></p>
+					<p><a class="btn btn-default" href="xhtml-10-index.html" title="Mit CSS formatierte Tabelle aller &quot;XHTML 1.0 strict&quot;-Elemente" target="_blank" role="button">Lösungsseite öffnen</a></p>
+				</div>
+				<div class="col-lg-6">
+					<h4>Hausaufgabe: Barrierefreies Suchformular</h4>
+					<p><em>Sie sollen für die deutsche Wikipedia ein barrierefreies Webformular für die Suche nach Artikeln entwickeln. Als erste Orientierung kann Ihnen das Beispiel im Wikipedia-Artikel "Webformular" dienen.</em></p>
+					<p><a class="btn btn-default" href="formular-index.html" title="Barrierefreies Suchformular" target="_blank" role="button">Lösungsseite öffnen</a></p>
+				</div>
+			</div>
+			<hr>
+			<footer>
+                <p>&copy; David Bourguignon 2013</p>
+			</footer>
+		</div> <!-- /container -->
+	</body>
 </html>
